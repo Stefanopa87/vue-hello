@@ -14,12 +14,22 @@
         <script src="js/script.js" charset="utf-8"></script>
     </head>
     <body>
-      <h1 style="color: #fff">es 06 apr 2021</h1>
         <div id="app" class="container">
             <div class="row">
+              <h1 style="color: #fff">es 06 apr 2021</h1>
+
                 <h1> {{msg}}  <i class="fab fa-angellist"></i> </h1>
 
                 <img :src="img" alt="">
+
+                <label>digita:</label>
+                <input type="text" v-model="scrivi" >
+
+                <p>stai scrivendo : {{ scrivi }}</p>
+
+                <p>stai scrivendo tramite funzione : {{ scriviConFunzione() }}</p>
+
+
 
             </div>
         </div>

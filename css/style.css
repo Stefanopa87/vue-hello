@@ -8,14 +8,22 @@ body{
   background-color: #89c4c5;
 }
 
-h1{
+.row{
   text-align: center;
+}
+
+h1{
   color: blue;
   margin-top: 50px;
 }
 
 img{
   display: block;
-  margin: auto;
+  margin: 30px auto;
   height: 200px;
+}
+
+input{
+  display: block;
+  margin: auto;
 }

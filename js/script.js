@@ -13,6 +13,14 @@ function init(){
     data: {
       'msg': 'Questo testo è scritto con Vue JS..',
       'img': "img/pergamena.jpg",
+      'scrivi': '',
+    },
+    // quello che ho fatto sopra con 'scrivi:' si può fare anche
+    // con una funzione, per ativare funzioni si usa methods:
+    methods: {
+      scriviConFunzione: function(){
+        return this.scrivi;
+      }
     }
   });
 }
