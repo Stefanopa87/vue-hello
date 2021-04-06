@@ -9,10 +9,11 @@ function init(){
 
   new Vue({
 
-      el: '#app',
-      data: {
-        'msg': 'Questo testo è scritto con Vue JS..',
-      }
+    el: '#app',
+    data: {
+      'msg': 'Questo testo è scritto con Vue JS..',
+      'img': "img/pergamena.jpg",
+    }
   });
 }
 
